@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#2196f3">
+        <title>Motel</title>
+        <link rel="stylesheet" href="dist/css/framework7.material.min.css">
+        <link rel="stylesheet" href="dist/css/framework7.material.colors.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/ie7.css">
+        <link rel="stylesheet" href="css/my-app.css">
+        <link rel="stylesheet" href="css/weather7.css">
+    </head>
+
+    <body>
+        <div class="statusbar-overlay"></div>
+
+        <div class="panel-overlay"></div>
+
+        <div class="panel panel-left panel-reveal">
+            <div class="content-block">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="views">
+            <div class="view view-main">
+                <div class="view">
+                    <div class="pages">
+                        <div data-page="index" class="page">
+                            <div class="page-content">
+                                <div class="login-screen-title">MotelApp</div>
+                                <div class="content-block inset">
+                                    <div class="content-block-inner">
+                                        <form>
+                                            <div class="list-block">
+                                                <ul>
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-media"><i class="icon icon-form-name"></i></div>
+                                                            <div class="item-inner">
+                                                                <div class="item-title floating-label">Your name</div>
+                                                                <div class="item-input item-input-field">
+                                                                    <input type="text" placeholder="Your name" class="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="content-block">
+                                                <a href="panel.html" class="button form-to-json">Iniciar sesión</a>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Picker -->
+        <div class="picker-modal picker-info">
+            <div class="toolbar">
+                <div class="toolbar-inner">
+                    <div class="left"></div>
+                    <div class="right"><a href="#" class="close-picker">Cerrar</a></div>
+                </div>
+            </div>
+            <div class="picker-modal-inner">
+                <div class="content-block">
+                    <h4></h4>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- About popover -->
+        <div class="popover popover-about">
+            <div class="popover-angle"></div>
+            <div class="popover-inner">
+                <div class="content-block">
+                    <div class="row">
+                        <div class="col-50">Disponible</div>
+                        <div class="col-50">Verde</div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="xdk/init-dev.js"></script>
+    <script type="text/javascript" src="jquery/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+    <script type="text/javascript" src="js/xml2json.js"></script>
+    <script type="text/javascript" src="js/my-app.js"></script>
+
+</html>

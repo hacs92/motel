@@ -1,0 +1,96 @@
+@-ms-viewport { width: 100vw ; zoom: 100% ; }  @viewport { width: 100vw ; zoom: 100% ; }
+@-ms-viewport { user-zoom: fixed ; }           @viewport { user-zoom: fixed ; }
+
+body.with-panel-left-cover .statusbar-overlay {
+    background: #EFEFF4;
+}  
+
+div[class*="col-auto"] {
+    text-align: center;
+    color: #000;
+    border: 1px solid #DDD;
+    padding: 4px;
+    min-height: 85px;
+    max-height: 85px;
+    border-radius: 5px;
+}
+
+.row .col-auto p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+
+.en-linea{
+    display: inline-table;
+}
+
+p > i[class*="icon-hotel"]{
+    font-size: 20px;
+}
+
+.croquis-habitaciones{
+    margin-top: 10px;
+}
+
+div[data-estatus='LISTA01'] {
+    background: rgba(65, 160, 37, 0.8);
+}
+
+div[data-estatus='POR_COBRAR02'] {
+    background: rgba(229, 121, 230, 0.8);
+}
+
+div[data-estatus='OCUPADA03'] {
+    background: rgba(255, 11, 0, 0.8);
+}
+
+div[data-estatus='SERVICIO_RESTAURANT04'] {
+    background: rgba(0, 161, 225, 0.8);
+}
+
+div[data-estatus='POR_SALIR05'] {
+    background: rgba(255, 41, 86, 0.8);
+}
+
+div[data-estatus='POR_LIMPIAR06'] {
+    background: rgba(165, 42, 42, 0.8);
+}
+
+div[data-estatus='LIMPIEZA_NORMAL07'] {
+    background: rgba(255, 135, 0, 0.8);
+}
+
+div[data-estatus='LIMPIA08'] {
+    background: rgba(83, 229, 144, 0.8);
+}
+
+div[data-estatus='NO_DISPONIBLE09'] {
+    background: rgba(143, 143, 149, 0.8);
+}
+
+div[data-estatus='LIMPIEZA_DETALLE10'] {
+    background: rgba(255, 135, 0, 0.8);
+}
+
+div[data-estatus='SOLICITUD11'] {
+    background: rgba(200, 100, 50, 0.8);
+}
+
+div[data-estatus='RESERVADA12'] {
+    background: rgba(255,217,102, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

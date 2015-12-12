@@ -1,0 +1,97 @@
+html,
+body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+/*==============================
+Details page styles
+==============================*/
+
+.list-block.forecast-list {
+    margin: 0;
+}
+.list-block.forecast-list ul:before,
+.list-block.forecast-list ul:after {
+    display: none;
+}
+.list-block.forecast-list span {
+    display: inline-block;
+}
+.list-block.forecast-list .item-inner {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.list-block.forecast-list .item-after {
+    display: block;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.87);
+    height: auto;
+    max-height: none;
+}
+.list-block.forecast-list .state {
+    display: block;
+}
+.list-block.forecast-list .date {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.list-block.forecast-list .temps span {
+    width: 30px;
+}
+.list-block.forecast-list .temps span.low {
+    color: rgba(0, 0, 0, 0.54);
+}
+/*==============================
+Tablet
+==============================*/
+@media (min-width: 720px) {
+    .views .page {
+        background: #eee;
+    }
+    .views .navbar .left {
+        pointer-events: auto;
+    }
+    .views .navbar .center {
+        display: block;
+        max-width: -webkit-calc(100% - 80% - 56px - 16px);
+        max-width: -calc(100% - 80% - 56px - 16px);
+    }
+    .views .navbar-inner {
+        overflow: visible;
+    }
+    .views .list-block {
+        background: #fff;
+        border-radius: 3px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        width: 60%;
+        margin: 32px auto;
+    }
+    .views .list-block ul:before {
+        display: none;
+    }
+    .views .list-block:first-child {
+        margin-top: 0;
+    }
+    .views .list-block .list-block-label {
+        margin: 0;
+        padding: 16px 0;
+        font-size: 0;
+    }
+    .views .list-block.forecast-list {
+        margin: 0 auto 32px;
+    }
+    .floating-button {
+        left: 80%;
+        margin-left: 32px;
+        top: 76px;
+    }
+    .fake-navbar {
+        height: 104px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+}
